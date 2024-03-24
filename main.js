@@ -6,7 +6,7 @@ var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
 // Link of background music - set 'null' if you dont want to play background music
-var bgMusicURL = 'https://soundcloud.com/tri-hoang-198026742/wrong-time?si=b2932bffb95243059ba0dd61a8f95d25&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
+var bgMusicURL = 'https://soundcloud.com/tri-hoang-198026742/wrong-time?si=58b6df82775244f7abf0791b0f946b0d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
 var bgMusicControls = true; // Show UI music control
 
 
