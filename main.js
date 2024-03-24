@@ -6,7 +6,7 @@ var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
 // Link of background music - set 'null' if you dont want to play background music
-var bgMusicURL = 'https://soundcloud.com/tri-hoang-198026742/wrong-time?si=58b6df82775244f7abf0791b0f946b0d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
+var bgMusicURL = 'https://soundcloud.com/tri-hoang-198026742/wrong-time?si=462ef32c36144b82bb4ce2737730001a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
 var bgMusicControls = true; // Show UI music control
 
 
@@ -65,7 +65,7 @@ if (autoRotate) {
 // add background music
 if (bgMusicURL) {
   document.getElementById('music-container').innerHTML += `
-<audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>    
+<audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>
 <p>If you are reading this, it is because your browser does not support the audio element.</p>
 </audio>
 `;
